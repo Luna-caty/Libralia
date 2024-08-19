@@ -1,0 +1,638 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../Fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-thin";
+    src: url("../Fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../Fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../Fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Meduim";
+    src: url("../Fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../Fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-MediumItalic";
+    src: url("../Fonts/Montserrat-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../Fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("../Fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Meduim";
+    src: url("../Fonts/Roboto-Medium.ttf");
+}
+
+.navBarText {
+    font-family: "Roboto-Regular";
+    color: white;
+    font-size: 24px;
+}
+
+::placeholder {
+    font-family: "Roboto-thin";
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto-Regular";
+    font-size: 24px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.inputNav {
+    background: none;
+    border: none;
+    height: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+    font-family: "Montserrat-Light";
+    padding-bottom: 9px;
+    
+   
+}
+.active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* Hearder Styling */
+
+
+.firstTextHero {
+    font-family: "Roboto-Bold";
+    font-size: 42px;
+    color: white;
+}
+
+.secondTextHero {
+    font-family: "Roboto-Light";
+    font-size: 28px;
+    padding-bottom: 20px;
+    color: white;
+
+}
+
+.heroButton {
+    font-family: "Roboto-Regular";
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(111, 96, 81);
+    height: 40px;
+    width: 200px;
+    font-size: 27px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.heroButton:hover {
+    background-color: rgb(54, 47, 40);
+}
+
+.HeroSec {
+
+    /* height: 500px; */
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    background-color: rgba(58, 38, 20, 0.75);
+}
+
+.HeroSectionText {
+    width: 500px;
+    padding-left: 10px;
+    display: flex;
+}
+
+.HeaderPictures {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Footer Styling */
+
+.LeftSideFooter a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat-Light";
+    font-size: 28px;
+}
+
+.CenterSideFooter a {
+    font-family: "Montserrat-Light";
+    text-decoration: none;
+    color: black;
+    padding-top: 5px;
+}
+
+.CenterSideFooter div {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+
+.FooterPragraph {
+    font-size: 24px;
+    font-family: "Montserrat-Meduim";
+    color: white;
+}
+
+.RightSideFooter div {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.RightSideParagraph {
+    font-family: "Montserrat-Light";
+    color: black;
+    padding-left: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(58, 38, 20, 0.75);
+}
+
+.ThreeBooksHome {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.testLink {
+    color: black;
+    font-family: "Montserrat-MediumItalic";
+    font-size: 20px;
+}
+
+.BooksInfo {
+    font-family: "Roboto-Light";
+    font-size: 20px;
+}
+
+.inputContact {
+    height: 30px;
+    width: 300px;
+    border: none;
+    background-color: #D9D9D9;
+}
+
+.Contact {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.ContactBtn {
+    background-color: rgba(60, 45, 30, 0.829);
+    color: white;
+    font-family: "Roboto-Regular";
+    border: none;
+    font-size: 24px;
+    width: 200px;
+    height: 32px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.ContactBtn:hover
+{
+    background-color: rgb(111, 96, 81);
+
+}
+
+.BookBtn {
+    background: transparent;
+    border: 1px solid black;
+    font-family: "Roboto-Regular";
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.BookBtn:hover {
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.Picture img {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.BooksGenre p {
+    font-family: "Roboto-Bold";
+    font-size: 20px;
+}
+
+.BooksGenre label {
+    font-family: "Roboto-Light";
+    font-size: 20px;
+}
+
+.PriceRange {
+    display: flex;
+}
+
+.PriceRange input {
+    accent-color: black;
+}
+
+form input {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    padding-right: 30px;
+}
+
+.shopBooks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.ShopPage {
+    display: flex;
+}
+
+.FilterShop {
+    padding-right: 120px;
+    width: 500px;
+}
+
+.BookCover {
+    width: 570px;
+    height: 600px;
+  background-color: #a0a0a0a4;
+    border: 2px solid black;
+}
+
+.BookImage img {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.BookImage {
+    width: 350px;
+    height: 530px;
+    padding: 40px;
+   
+}
+
+.BookDetails {
+    display: flex;
+}
+
+.Title {
+    font-family: "Roboto-Black";
+    font-size: 30px;
+}
+
+.resume {
+    font-family: "Roboto-Light";
+    font-size: 24px;
+}
+
+.Details {
+    padding-left: 40px;
+}
+.Details button:hover
+{
+    background-color: rgb(70, 56, 42);
+    transition: 0.6s;
+}
+
+.typeCard {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid rgb(44, 44, 44);
+    padding-bottom: 10px;
+}
+
+.BookType {
+    display: flex;
+    gap: 20px;
+}
+
+.Details button {
+    font-family: "Roboto-Regular";
+    background-color: rgb(111, 96, 81);
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.Details button Link {
+    text-decoration: none;
+    color: white;
+}
+
+.cartElements {
+    width: 500px;
+    background-color: rgba(135, 113, 84, 0.2);
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.emptyCartImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.firstParagraphEmptyCart {
+    font-family: "Roboto-Bold";
+    font-size: 20px;
+    text-align: center;
+}
+
+.secondParagraphEmptyCart {
+    font-family: "Roboto-Light";
+    text-align: center;
+}
+
+.cartElements button {
+    font-family: "Roboto-Regular";
+    font-size: 18px;
+    background-color: rgb(111, 96, 81);
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+}
+
+.cartElements button:hover {
+    background-color: rgb(85, 72, 59);
+}
+
+.shopBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.payment {
+    width: 350px;
+    height: 405px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.cartTotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment hr {
+    border-color: black;
+}
+
+.money {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstPmoney {
+    font-family: "Montserrat-Meduim";
+}
+
+.secondPmoney {
+    font-family: "Roboto-Bold";
+}
+
+.checkOutBtn button {
+    background-color: rgb(82, 70, 58);
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.checkOutBtn button:hover {
+    background-color: rgb(111, 96, 81);
+
+}
+
+.TitlePayment {
+    display: flex;
+    justify-content: center;
+}
+
+.ImageAndTitle {
+    display: flex;
+}
+
+.NameAndCard {
+    width: 300px;
+    height: 28px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 30px;
+    padding-left: 10px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.dateCodeInfo {
+    height: 28px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 30px;
+    padding-left: 10px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+::placeholder {
+    font-family: "Roboto-Thin";
+    color: #3C3C3C;
+}
+
+.PersonalInfo button {
+    background-color: rgb(94, 80, 67);
+    font-family: "Roboto-Bold";
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 130px;
+    color: rgba(0, 0, 0, 0.753);
+    cursor: pointer;
+}
+
+.PayBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.creditCard p {
+    font-family: "Montserrat-Meduim";
+}
+
+.PaymentDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outOfSTock {
+    height: 305px;
+    width: 200px;
+    background-color: rgba(85, 85, 85, 0.705);
+}
+
+.StockSentence {
+    position: absolute;
+    padding-top: 145px;
+    padding-left: 40px;
+    font-family: "Roboto-Bold";
+    font-size: 20px;
+}
+
+.card img
+{
+    transition: transform 0.5s;
+}
+.overlay
+{
+    height:0;
+    width: 220px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(transparent,#1c1c1cb6 60%);
+    transition: height 0.5s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.card:hover img
+{
+    transform: scale(1.2);
+}
+.card:hover .overlay
+{
+    height:100% ;
+}
+.overlay p
+{
+    color: white;
+    font-family: "Montserrat-Meduim";
+    margin: 0;
+}
+
+.cartBookCover img
+{
+    width: 100%;
+    display: block;
+    
+}
+.dot
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #bbb;
+    display: inline-block;
+}
+.count input
+{
+    width: 30px;
+    background-color: transparent;
+    border:none;
+    text-align: center;
+}
+.featureCard
+{
+    width: 300px;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 0.212);
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25) ;
+}
+.title p
+{
+    font-family: "Roboto-Bold";
+    font-size: 20px;
+    padding-left: 10px;
+}
+.explication p 
+{
+    font-family: "Roboto-Light";
+    width: 220px;
+    text-align: center;
+}
+.features
+{
+    display: flex;
+    justify-content: space-around;
+}
+.icon
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
