@@ -1,3 +1,8 @@
+# Libralia 
+an online bookstore
+designed from scratch using Figma 
+coded using React.Js 
+<hr>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
